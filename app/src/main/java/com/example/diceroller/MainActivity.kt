@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         val rollButton: Button = findViewById<Button>(R.id.button)
         rollButton.setOnClickListener {
+            // 주석 커밋테스트
             /*val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT)
             toast.show();
             val resultTextView: TextView = findViewById(R.id.textView)
